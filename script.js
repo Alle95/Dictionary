@@ -4,9 +4,7 @@ let string = "";
 function dictionary() {
     if(document.getElementById('newWord') != null) {
         word = document.getElementById('newWord').value;
-        console.log(word);
         string = string + word + " ";
-        console.log(string);
     }
 }
 
